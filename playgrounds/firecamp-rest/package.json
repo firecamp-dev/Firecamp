@@ -33,8 +33,7 @@
     "node": ">=10"
   },
   "dependencies": {
-    "@firecamp/curl-to-firecamp": "^1.0.1",
-    "@firecamp/rest-executor": "workspace:*",
+    "@firecamp/curl-to-firecamp": "^1.0.2",
     "@firecamp/scripts": "workspace:*",
     "@firecamp/types": "^0.2.2",
     "@firecamp/ui": "workspace:*",
@@ -74,7 +73,6 @@
     "@types/node": "^16.4.3",
     "@typescript-eslint/eslint-plugin": "^5.35.1",
     "@typescript-eslint/parser": "^5.29.0",
-    "axios": "^0.27.2",
     "cspell": "^4.1.0",
     "eslint": "^8.29.0",
     "eslint-config-prettier": "^6.11.0",
@@ -109,8 +107,8 @@
     "singleQuote": true
   },
   "peerDependencies": {
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "babel": {
     "presets": [
